@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/aos.css">
+    <script src="https://kit.fontawesome.com/8a3f12f9a4.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body class="t-img-gray">
+
+    <!-- preloader start -->
+    <div class="preloader js-preloader">
+        <div class="preloader__box">
+            <img src="./img/logo.png" alt="img" class="preloader__img logo">
+            <div class="preloader__dot"></div>
+        </div>
+        <div class="preloader__slide js-preloader-slide"></div>
+    </div>
+    <!-- preloader end -->
+  <!-- page wrapper strat   -->
+  <div class="page-wrapper">
+    <!-- header strat -->
+    <header class="header">
+        <div class="header__container container">
+            <a href="" class="header__logo-link" data-aos="fade-down" >
+                <img src="./img/logo.png" alt="" class="header__logo logo">
+            </a>
+            <button type="button" class="header-toggler js-header-toggler" data-aos="fade-down">
+
+                <span class="header__toggler-text" data-text="close">menu</span>
+            </button>
+            <nav class="header__nav js-header-nav">
+                <ul class="header-list">
+                    <li class="header-item">
+                        <a href="#home" class="header-link">home</a>
+                        <span class="header__line line"></span>
+                    </li>
+                    <li class="header-item">
+                        <a href="#about" class="header-link">about</a>
+                        <span class="header__line line"></span>
+                    </li>
+                    <li class="header-item">
+                        <a href="#service" class="header-link">service</a>
+                        <span class="header__line line"></span>
+                    </li>
+                    <li class="header-item">
+                        <a href="#pricing" class="header-link">pricing</a>
+                        <span class="header__line line"></span>
+                    </li>
+                    <li class="header-item">
+                        <a href="#team" class="header-link">team</a>
+                        <span class="header__line line"></span>
+                    </li>
+                    <li class="header-item">
+                        <a href="#contact" class="header-link">contact</a>
+                        
+                    </li>
+                        
+                   
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- header End -->
+
+    <!-- home start -->
+    <section class="home" id="home">
+        <div class="home__container container">
+            <div class="home__back">
+                <div class="home__img-box">
+                    <img src="./img/home-img.jpg" alt="img" class="home-img">
+                    <div class="img-cover" data-aos="slide-right"></div>
+                    <div class="img-cover" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="1000"></div>
+                </div>
+            </div>
+            <div class="home__front">
+                <h1 class="home__title-wrap">
+                    <span class="home__title" data-aos="fade">no pain </span>
+                    <span class="home__title" data-aos="fade" data-aos-delay="500" data-aos-offset="0">no gain</span>
+                </h1>
+                <div class="home__btn-wrap" data-aos="fade-up" data-aos-offset="0">
+                    <a href="#about" class="btn btn--2">about us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home End -->
+
+    <!-- about section strat -->
+    <section class="about" id="about">
+        <div class="about__container container">
+            <div class="about__section-header section-header section-header--center">
+                <h2 class="section-header__title" data-aos="fade-up">welcome to x-gym</h2>
+            </div>
+            <div class="about__img-box">
+                <img src="./img/about-img.jpg" alt="img" class="about__img">
+                <div class="img-cover" data-aos="slide-right"></div>
+                <div class="img-cover" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="1000"></div>
+                <div class="about__play-btn-wrap">
+                    <button type="button" class="about__play-btn js-about-play-btn">
+                        <i class="fa fa-play"></i>
+                    </button> 
+                </div>
+            </div>
+            <div class="about__text" >
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quo qui iure vero quas dolore recusandae ea velit impedit vel perspiciatis, cupiditate obcaecati nobis odit fugiat hic. Vero voluptas iste ipsam necessitatibus dolor tenetur sint officia possimus qui mollitia repudiandae accusantium, velit sequi eaque distinctio! Omnis sint autem nisi dolore!</p>
+                <p data-aos="fade">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sequi officia vero, accusantium perspiciatis fugit? Quos minima deleniti doloribus praesentium repellendus, perferendis nostrum aperiam impedit delectus nesciunt. Culpa, natus optio.</p>
+            </div>
+            <div class="about__avatar" data-aos="fade-up">
+                <div class="about__avatar-img-box">
+                    <img src="./img/owner.jpg" alt="img" class="about__avatar-img">
+                </div>
+                <div class="about__avatar-text">
+                    <h3 class="about__avatar-name">jahn doe</h3>
+                    <div class="about__avatar-position">gym owner</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section end -->
+
+    <!-- services section strart -->
+    <section class="services" id="services">
+       <div class="services__container contaicer">
+        <div class="services__section-header section-header section-header--center">
+            <h2 class="section-header__title" data-aos="fade-up">classes we provide</h2>
+        </div>
+        <div class="services__accordian accordain js-accordain">
+            <!-- accordain Item strat -->
+            <div class="accordain__item">
+                <div class="accordain__header">
+                    <button type="button" class="accordain__btn js-accordain-btn" data-aos="fade">
+                        <span class="accordain__title">weight lifting</span>
+                        <span class="accordain__icon"><i class="fa fa-arrow-right-long"></i></span>
+                    </button>
+                </div>
+                <div class="accordain__body">
+                    <div class="accordain__body-inner">
+                        <div class="accodain__content">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dignissimos nulla qui corporis magni, eius accusamus, unde animi nam voluptate est laudantium modi eveniet recusandae, minus dolorem? Incidunt aut ipsa doloremque, deleniti veritatis illo illum nam repellendus assumenda possimus quasi.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam perspiciatis officiis fuga cum illum assumenda natus. Harum iste possimus quia omnis cum, ut beatae dolorum officia soluta facilis excepturi reprehenderit!
+                            </p>
+                        </div>
+                        <div class="accordain__img-box">
+                            <img src="/img/service/1.jpg" alt="img" class="accordain__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- accordain Item end -->
+            <!-- accordain Item strat -->
+            <div class="accordain__item">
+                <div class="accordain__header">
+                    <div class="accordain__line line" data-aos="scale-x-right"></div>
+                    <button type="button" class="accordain__btn js-accordain-btn" data-aos="fade">
+                        <span class="accordain__title">aerodics</span>
+                        <span class="accordain__icon"><i class="fa fa-arrow-right-long"></i></span>
+                    </button>
+                </div>
+                <div class="accordain__body">
+                    <div class="accordain__body-inner">
+                        <div class="accodain__content">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dignissimos nulla qui corporis magni, eius accusamus, unde animi nam voluptate est laudantium modi eveniet recusandae, minus dolorem? Incidunt aut ipsa doloremque, deleniti veritatis illo illum nam repellendus assumenda possimus quasi.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam perspiciatis officiis fuga cum illum assumenda natus. Harum iste possimus quia omnis cum, ut beatae dolorum officia soluta facilis excepturi reprehenderit!
+                            </p>
+                        </div>
+                        <div class="accordain__img-box">
+                            <img src="/img/service/2.jpg" alt="img" class="accordain__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- accordain Item end -->
+            <!-- accordain Item strat -->
+            <div class="accordain__item">
+                <div class="accordain__header">
+                    <div class="accordain__line line" data-aos="scale-x-right"></div>
+                    
+                    <button type="button" class="accordain__btn js-accordain-btn" data-aos="fade">
+                        <span class="accordain__title">cordio</span>
+                        <span class="accordain__icon"><i class="fa fa-arrow-right-long"></i></span>
+                    </button>
+                </div>
+                <div class="accordain__body">
+                    <div class="accordain__body-inner">
+                        <div class="accodain__content">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dignissimos nulla qui corporis magni, eius accusamus, unde animi nam voluptate est laudantium modi eveniet recusandae, minus dolorem? Incidunt aut ipsa doloremque, deleniti veritatis illo illum nam repellendus assumenda possimus quasi.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam perspiciatis officiis fuga cum illum assumenda natus. Harum iste possimus quia omnis cum, ut beatae dolorum officia soluta facilis excepturi reprehenderit!
+                            </p>
+                        </div>
+                        <div class="accordain__img-box">
+                            <img src="../img/service/3.jpg" alt="img" class="accordain__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- accordain Item end -->
+            <!-- accordain Item strat -->
+            <div class="accordain__item">
+                <div class="accordain__header">
+                    <div class="accordain__line line" data-aos="scale-x-right"></div>
+                    <button type="button" class="accordain__btn js-accordain-btn" data-aos="fade">
+                        <span class="accordain__title">boxing punch</span>
+                        <span class="accordain__icon"><i class="fa fa-arrow-right-long"></i></span>
+                    </button>
+                </div>
+                <div class="accordain__body">
+                    <div class="accordain__body-inner">
+                        <div class="accodain__content">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dignissimos nulla qui corporis magni, eius accusamus, unde animi nam voluptate est laudantium modi eveniet recusandae, minus dolorem? Incidunt aut ipsa doloremque, deleniti veritatis illo illum nam repellendus assumenda possimus quasi.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam perspiciatis officiis fuga cum illum assumenda natus. Harum iste possimus quia omnis cum, ut beatae dolorum officia soluta facilis excepturi reprehenderit!
+                            </p>
+                        </div>
+                        <div class="accordain__img-box">
+                            <img src="/img/service/4.jpg" alt="img" class="accordain__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- accordain Item end -->
+            <!-- accordain Item strat -->
+            <div class="accordain__item">
+                <div class="accordain__header">
+                    <div class="accordain__line line" data-aos="scale-x-right"></div>
+                    <button type="button" class="accordain__btn js-accordain-btn" data-aos="fade">
+                        <span class="accordain__title">power yaga</span>
+                        <span class="accordain__icon"><i class="fa fa-arrow-right-long"></i></span>
+                    </button>
+                </div>
+                <div class="accordain__body">
+                    <div class="accordain__body-inner">
+                        <div class="accodain__content">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dignissimos nulla qui corporis magni, eius accusamus, unde animi nam voluptate est laudantium modi eveniet recusandae, minus dolorem? Incidunt aut ipsa doloremque, deleniti veritatis illo illum nam repellendus assumenda possimus quasi.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam perspiciatis officiis fuga cum illum assumenda natus. Harum iste possimus quia omnis cum, ut beatae dolorum officia soluta facilis excepturi reprehenderit!
+                            </p>
+                        </div>
+                        <div class="accordain__img-box">
+                            <img src="/img/service/5.jpg" alt="img" class="accordain__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- accordain Item end -->
+            <!-- accordain Item strat -->
+            <div class="accordain__item">
+                <div class="accordain__header">
+                    <div class="accordain__line line" data-aos="scale-x-right"></div>
+                    <button type="button" class="accordain__btn js-accordain-btn" data-aos="fade">
+                        <span class="accordain__title">zunba class</span>
+                        <span class="accordain__icon"><i class="fa fa-arrow-right-long"></i></span>
+                    </button>
+                </div>
+                <div class="accordain__body">
+                    <div class="accordain__body-inner">
+                        <div class="accodain__content">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dignissimos nulla qui corporis magni, eius accusamus, unde animi nam voluptate est laudantium modi eveniet recusandae, minus dolorem? Incidunt aut ipsa doloremque, deleniti veritatis illo illum nam repellendus assumenda possimus quasi.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam perspiciatis officiis fuga cum illum assumenda natus. Harum iste possimus quia omnis cum, ut beatae dolorum officia soluta facilis excepturi reprehenderit!
+                            </p>
+                        </div>
+                        <div class="accordain__img-box">
+                            <img src="/img/service/6.jpg" alt="img" class="accordain__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- accordain Item end -->
+        </div>
+       </div> 
+    </section>
+    <!-- services section end -->
+    
+  </div>
+  <!-- page wrapper End   -->
+
+  
+   
+
+  <!-- pricing section strat -->
+  <section class="pricing" id="pricing">
+    <div class="pricing__container container">
+        <div class="pricing__section-header section-header section-header--center">
+            <h2 class="section-header__title" data-aos="fade">our pricing plan</h2>
+        </div>
+        <div class="pricing__cards">
+            <!-- pricing card start -->
+            <div class="pricing__card" data-aos="fade">
+                <div class="pricing__header">
+                    <h3 class="pricing__title" data-aos="fade">basic</h3>
+                </div>
+                <div class="pricing__body">
+                    <ul class="pricing__list">
+                        <li class="pricing__list-item">
+                            <i class="fa fa-check"></i>
+                            <span>unlimited equipment</span>
+                        </li>
+                        <li class="pricing__list-item" data-aos="fade">
+                            <i class="fa fa-check"></i>
+                            <span>diet chart</span>
+                        </li>
+                        <li class="pricing__list-item" data-aos="fade">
+                            <i class="fa fa-check"></i>
+                            <span>weight gain</span>
+                        </li>
+                        <li class="pricing__list-item" data-aos="fade">
+                            <i class="fa fa-times"></i>
+                            <span>weight loss</span>
+                        </li>
+                        <li class="pricing__list-item" data-aos="fade">
+                            <i class="fa fa-times"></i>
+                            <span>personal trainer</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pricing__footer">
+                    <div class="pricing__price-wrap" data-aos="fade">
+                        <div class="pricing__price">$199</div>
+                        <div class="pricing__session">/monthly</div>
+                    </div>
+                    <div class="pricing__btn-wrap" data-aos="fade">
+                        <a href="#" class="btn btn--1">join now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- pricing card end -->
+            <!-- pricing card start -->
+            <div class="pricing__card" data-aos="fade">
+                <div class="pricing__header">
+                    <h3 class="pricing__title" data-aos="fade">standered</h3>
+                </div>
+                <div class="pricing__body">
+                    <ul class="pricing__list">
+                        <li class="pricing__list-item" data-aos="fade">
+                            <i class="fa fa-check"></i>
+                            <span>unlimited equipment</span>
+                        </li>
+                        <li class="pricing__list-item" data-aos="fade">
+                            <i class="fa fa-check"></i>
+                            <span>diet chart</span>
+                        </li>
+                        <li class="pricing__list-item" data-aos="fade">
+                            <i class="fa fa-check"></i>
+                            <span>weight gain</span>
+                        </li>
+                        <li class="pricing__list-item" data-aos="fade">
+                            <i class="fa fa-check"></i>
+                            <span>weight loss</span>
+                        </li>
+                        <li class="pricing__list-item" data-aos="fade">
+                            <i class="fa fa-check"></i>
+                            <span>personal trainer</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pricing__footer">
+                    <div class="pricing__price-wrap" data-aos="fade">
+                        <div class="pricing__price">$499</div>
+                        <div class="pricing__session">/monthly</div>
+                    </div>
+                    <div class="pricing__btn-wrap" data-aos="fade">
+                        <a href="#" class="btn btn--1">join now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- pricing card end -->
+        </div>
+    </div>
+  </section>  
+  <!-- pricing section end -->
+
+  <!-- team section start -->
+  <section class="team" id="team">
+    <div class="team__container container">
+        <div class="team__section-header header-section section-header--center">
+            <h2 class="section-header__title" data-aos="fade">meet our trainers</h2>
+        </div>
+        <div class="team__teams">
+            <!-- team item strat -->
+            <div class="team__team">
+                <div class="team__img-box">
+                    <img src="./img/team/1.jpg" alt="img" class="team__img">
+                    <div class="img-cover" data-aos="slide-right"></div>
+                <div class="img-cover" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="1000"></div>
+                </div>
+                <div class="team__text">
+                    <div class="team__name" data-aos="fade-up">john doe </div>
+                    <div class="team__position" data-aos="fade-up">fitness trainer</div>
+                </div>
+                <div class="team__social social social--vertical">
+                    <a href="" class="social__link"><i class="fa fa-facebook-f"></i></a>
+                    <a href="" class="social__link"><i class="fa fa-twitter"></i></a>
+                    <a href="" class="social__link"><i class="fa fa-instagram"></i></a>
+                    <a href="" class="social__link"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+            <!-- team item end-->
+            <!-- team item strat -->
+            <div class="team__team">
+                <div class="team__img-box">
+                    <img src="./img/team/2.jpg" alt="img" class="team__img">
+                    <div class="img-cover" data-aos="slide-right"></div>
+                <div class="img-cover" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="1000"></div>
+                </div>
+                <div class="team__text">
+                    <div class="team__name" data-aos="fade-up">john doe </div>
+                    <div class="team__position" data-aos="fade-up">fitness trainer</div>
+                </div>
+                <div class="team__social social social--vertical">
+                    <a href="" class="social__link"><i class="fa fa-facebook-f"></i></a>
+                    <a href="" class="social__link"><i class="fa fa-twitter"></i></a>
+                    <a href="" class="social__link"><i class="fa fa-instagram"></i></a>
+                    <a href="" class="social__link"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+            <!-- team item end-->
+            <!-- team item strat -->
+            <div class="team__team">
+                <div class="team__img-box">
+                    <img src="./img/team/3.jpg" alt="img" class="team__img">
+                    <div class="img-cover" data-aos="slide-right"></div>
+                    <div class="img-cover" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="1000"></div>
+                </div>
+                <div class="team__text">
+                    <div class="team__name" data-aos="fade-up">john doe </div>
+                    <div class="team__position" data-aos="fade-up">fitness trainer</div>
+                </div>
+                <div class="team__social social social--vertical">
+                    <a href="" class="social__link"><i class="fa fa-facebook-f"></i></a>
+                    <a href="" class="social__link"><i class="fa fa-twitter"></i></a>
+                    <a href="" class="social__link"><i class="fa fa-instagram"></i></a>
+                    <a href="" class="social__link"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+            <!-- team item end-->
+            <!-- team item strat -->
+            <div class="team__team">
+                <div class="team__img-box">
+                    <img src="./img/team/4.jpg" alt="img" class="team__img">
+                    <div class="img-cover" data-aos="slide-right"></div>
+                    <div class="img-cover" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="1000"></div>
+                </div>
+                <div class="team__text">
+                    <div class="team__name" data-aos="fade-up">john doe </div>
+                    <div class="team__position" data-aos="fade-up">fitness trainer</div>
+                </div>
+                <div class="team__social social social--vertical">
+                    <a href="" class="social__link"><i class="fa fa-facebook-f"></i></a>
+                    <a href="" class="social__link"><i class="fa fa-twitter"></i></a>
+                    <a href="" class="social__link"><i class="fa fa-instagram"></i></a>
+                    <a href="" class="social__link"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+            <!-- team item end-->
+        </div>
+    </div>
+  </section>      
+
+  <!-- team section end -->
+
+  
+            <!-- contact section start -->
+            <section class="contact" id="contact">
+                <div class="contact__section container">
+                    <div class="contact__section-header header-section">
+                        <h2 class="section-header__title" data-aos="fade-up">contact us</h2>
+                    </div>
+                    <div class="contact__content">
+                        <div class="contact__item">
+                            <div class="contact__items">
+                                <h3 class="contact__title" data-aos="fade">reach us</h3>
+                                <div class="contact__text" data-aos="fade">block -A sec - 75 , satita vihar</div>
+                            </div>
+                            <div class="contact__items">
+                                <h3 class="contact__title" data-aos="fade">call us</h3>
+                                <div class="contact__text" data-aos="fade">+93 56473829l</div>
+                            </div>
+                            <div class="contact__items">
+                                <h3 class="contact__title" data-aos="fade">eamil us</h3>
+                                <div class="contact__text" data-aos="fade">nasaj.786@gmail.com</div>
+                            </div>
+                        </div>
+                        <form action="" class="contact__form form">
+                            <div class="form-_item" data-aos="fade">
+                                <input type="text" class="form__control" placeholder="Name" required>
+                                <div class="form__line line" data-aos="scale-x-right"></div>
+                            </div>
+                            <div class="form-_item" data-aos="fade">
+                                <input type="email" class="form__control" placeholder="email" required>
+                                <div class="form__line line" data-aos="scale-x-right"></div>
+                            </div>
+                            <div class="form-_item" data-aos="fade">
+                                <input type="number" class="form__control" placeholder="Phone" required>
+                                <div class="form__line line" data-aos="scale-x-right"></div>
+                            </div>
+                            <div class="form-_item" data-aos="fade">
+                                <textarea class="form__control form__control--message" placeholder="message" required></textarea>
+                                <div class="form__line line" data-aos="scale-x-right"></div>
+                            </div>
+                            <div class="form-_item" data-aos="fade">
+                               <button type="s" class="form__btn btn btn--1">send message</button>
+                            </div>
+                        </form>
+                        
+                    
+                </div>
+              </div>
+            </section>
+            <!-- contact section end -->
+
+            <!-- footer start -->
+            <footer class="footer">
+                <div class="footer__line line" data-aos="scale-x-right"></div>
+                <div class="footer__container container">
+                    <div class="footer-_item" data-aos="fade">
+                        <h3 class="footer__title">opening hours</h3>
+                        <div class="footer__timing">
+                            <span>Mon to fri:</span> <span>7:30am - 1:00am</span>
+                            <span>sat:</span> <span>7:30am - 1:00am</span>
+                        </div>
+                    </div>
+                    <div class="footer-_item" data-aos="fade">
+                        <h3 class="footer__title">follow us</h3>
+                        <div class="footer__social social">
+                            <a href="" class="social__link"><i class="fa fa-facebook-f"></i></a>
+                            <a href="" class="social__link"><i class="fa fa-twitter"></i></a>
+                            <a href="" class="social__link"><i class="fa fa-instagram"></i></a>
+                            <a href="" class="social__link"><i class="fa fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-_item" data-aos="fade">
+                        <h3 class="footer__title">newsletter</h3>
+                        <div class="footer__newsletter newsletter">get the lastest news, tips and message, including special offers</div>
+                        <form class="newsletter__form">
+                            <input type="email"  class="newsletter__input" placeholder="Email" required>
+                            <button class="newsletter__btn" type="s"><i class="fa fa-arrow-right-long"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </footer>
+            <!-- footer end -->
+            
+      
+  
+
+
+  <!-- video popup start -->
+  <div class="video-popup js-video-popup">
+    <div class="video-popup__inner">
+        <button type="button" class="video-popup__close js-video-popup-close">
+            <i class="fa fa-times"></i>
+        </button>
+        <div class="video-popup__iframe-box">
+            <iframe src="https://www.youtube.com/embed/gRfGkylK5qQ" frameborder="0" class="video-popup__iframe js-video-popup-iframe" allowfullscreen></iframe>
+        </div>
+    </div>
+  </div>
+  <!-- video popup end -->
+
+  <script src="./aos.js"></script>
+  <script src="./script.js"></script>
+  
+</body>
+</html>
